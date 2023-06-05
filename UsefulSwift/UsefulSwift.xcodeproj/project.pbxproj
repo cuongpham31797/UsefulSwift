@@ -13,6 +13,7 @@
 		8D596F772A2E3EDE0006D6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D596F752A2E3EDE0006D6DB /* Main.storyboard */; };
 		8D596F792A2E3EDF0006D6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D596F782A2E3EDF0006D6DB /* Assets.xcassets */; };
 		8D596F7C2A2E3EDF0006D6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D596F7A2A2E3EDF0006D6DB /* LaunchScreen.storyboard */; };
+		8D596F852A2E3FEB0006D6DB /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D596F782A2E3EDF0006D6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D596F7B2A2E3EDF0006D6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D596F7D2A2E3EDF0006D6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8D596F6E2A2E3EDE0006D6DB /* UsefulSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8D596F832A2E3FCA0006D6DB /* Extension */,
 				8D596F6F2A2E3EDE0006D6DB /* AppDelegate.swift */,
 				8D596F712A2E3EDE0006D6DB /* SceneDelegate.swift */,
 				8D596F732A2E3EDE0006D6DB /* ViewController.swift */,
@@ -65,6 +68,15 @@
 				8D596F7D2A2E3EDF0006D6DB /* Info.plist */,
 			);
 			path = UsefulSwift;
+			sourceTree = "<group>";
+		};
+		8D596F832A2E3FCA0006D6DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */,
+			);
+			name = Extension;
+			path = "Ễtnsion";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +153,7 @@
 				8D596F742A2E3EDE0006D6DB /* ViewController.swift in Sources */,
 				8D596F702A2E3EDE0006D6DB /* AppDelegate.swift in Sources */,
 				8D596F722A2E3EDE0006D6DB /* SceneDelegate.swift in Sources */,
+				8D596F852A2E3FEB0006D6DB /* NSObject+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
