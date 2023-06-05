@@ -14,6 +14,7 @@
 		8D596F792A2E3EDF0006D6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D596F782A2E3EDF0006D6DB /* Assets.xcassets */; };
 		8D596F7C2A2E3EDF0006D6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D596F7A2A2E3EDF0006D6DB /* LaunchScreen.storyboard */; };
 		8D596F852A2E3FEB0006D6DB /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */; };
+		8D596F882A2E415A0006D6DB /* BaseNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D596F872A2E415A0006D6DB /* BaseNibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8D596F7B2A2E3EDF0006D6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D596F7D2A2E3EDF0006D6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		8D596F872A2E415A0006D6DB /* BaseNibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */,
+				8D596F872A2E415A0006D6DB /* BaseNibView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				8D596F742A2E3EDE0006D6DB /* ViewController.swift in Sources */,
 				8D596F702A2E3EDE0006D6DB /* AppDelegate.swift in Sources */,
+				8D596F882A2E415A0006D6DB /* BaseNibView.swift in Sources */,
 				8D596F722A2E3EDE0006D6DB /* SceneDelegate.swift in Sources */,
 				8D596F852A2E3FEB0006D6DB /* NSObject+Extension.swift in Sources */,
 			);
