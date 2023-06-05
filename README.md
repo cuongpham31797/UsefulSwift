@@ -1,1 +1,1 @@
-# UsefulSwift
+Một số function common hỗ trợ cho UIKit chạy iOS 14 trở lên
