@@ -58,7 +58,7 @@
 		8D596F6E2A2E3EDE0006D6DB /* UsefulSwift */ = {
 			isa = PBXGroup;
 			children = (
-				8D596F832A2E3FCA0006D6DB /* Extension */,
+				8D596F862A2E41060006D6DB /* Extension */,
 				8D596F6F2A2E3EDE0006D6DB /* AppDelegate.swift */,
 				8D596F712A2E3EDE0006D6DB /* SceneDelegate.swift */,
 				8D596F732A2E3EDE0006D6DB /* ViewController.swift */,
@@ -70,13 +70,12 @@
 			path = UsefulSwift;
 			sourceTree = "<group>";
 		};
-		8D596F832A2E3FCA0006D6DB /* Extension */ = {
+		8D596F862A2E41060006D6DB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				8D596F842A2E3FEB0006D6DB /* NSObject+Extension.swift */,
 			);
-			name = Extension;
-			path = "Ễtnsion";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
